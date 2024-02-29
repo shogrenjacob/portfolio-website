@@ -148,6 +148,7 @@ label {
 
 .curve6 {
     background-image: url(./waves/wave6.svg);
+    bottom: 0;
 }
 
 .wave-divider1 {
