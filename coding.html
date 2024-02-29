@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="flex-container">
+
+        <nav>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    
+        <div>
+            <ul class="off-screen-menu">
+                <li>
+                    <a href="hobbies.html">About Me</a>
+                </li>
+                <li>
+                    <a href="tutoring.html">Tutoring</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+                <li>
+                    <a href="https://linktr.ee/shogrenjacob">My Linktree</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <nav class="flex-container-nav">
+            <a href="index.html" class="nav-element">Home</a>
+            <a href="hobbies.html" class="nav-element">About Me</a>
+            <a href="tutoring.html" class="nav-element">Tutoring</a>
+            <a href="contact.html" class="nav-element">Contact Me</a>
+            <a href="https://linktr.ee/shogrenjacob" class="nav-element">My Linktree</a>
+        </nav>
+        <div class="content-container">
+            <h2 class="content-title">Coding</h2>
+            <p class="paragraph-size">
+                In this section, you can find the technologies and programming languages that I know, as well as some of the projects
+                I've worked on and am currently working on. You can find the source code for all of my projects on my Github, which you can
+                get to through my Linktree. 
+            </p>
+
+            <div class="spacer wave-divider6"></div>
+            
+            <h3>My Technology</h3>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="imgs/pythonicon.webp" alt="python" class="grid-img">
+                    <span>Python</span>
+                    <p>3 Years</p>
+                </div>
+                <div class="grid-item">
+                    <img src="imgs/csshtml.png" alt="CSS and HTML" class="grid-img">
+                    <span>HTML/CSS</span>
+                    <p>3 Years</p>
+                </div>
+                <div class="grid-item">
+                    <img src="imgs/JavaScript-logo.png" alt="JavaScript" class="grid-img">
+                    <span>JavaScript</span>
+                    <p>2 Years</p>
+                </div>
+                <div class="grid-item">
+                    <img src="imgs/sql.png" alt="SQL" class="grid-img">
+                    <span class="grid-text">SQL</span>
+                    <p>6 Months</p>
+                </div>
+                <div class="grid-item">
+                    <img src="imgs/nodejs3.png" alt="Node.JS" class="grid-img" id="node">
+                    <span>Node.JS</span>
+                    <p>Learning...</p>
+                </div>
+                <div class="grid-item">
+                    <img src="imgs/react.png" alt="React JS" class="grid-img">
+                    <span>React</span>
+                    <p>Learning...</p>
+
+                </div>
+            </div>  
+
+            <div class="spacer wave-divider7"></div>
+
+            <h3>My Projects</h3>
+            <h3>This Website!</h3>
+            <p class="paragraph-size">
+                This website was an idea of mine to be a cetral location for interested parties to find out what I'm all about.
+                My goal for this was to make a beautiful, responive website that can catch the eye of the user, while not being
+                overly flashy or hard to use. For the website, I only used vanilla HTML and CSS to achieve the website. A big challenge
+                in making this was making it responsive, as this was a gap in my knowledge that I knew I had, but I wanted to overcome
+                and make the website as mobile friendly as possible.
+            </p>
+
+            <h3>Weather App</h3>
+            <p class="paragraph-size">
+                My weather app is a small project I worked on to get my hands dirty in calling and using data from an API.
+                This is a web-based app that lets the user input a city, state, and country and then displays the current weather of that location.
+                The API I worked with for this project was OpenWeather which gave me weather data for whatever city I queried.
+                To build the app, I used HTML, CSS, and Vanilla JavaScript as well as Postman to test requests. Using Javascript, I created get requests to the API
+                which returned weather data in a JSON format which I needed to manipluate to show to the user.
+            </p>
+
+            <h3>Fantasy Football Team Builder</h3>
+            <p class="paragraph-size">
+                This is the project I am currently working on. For context on how I chose this project, my dad and I are in a Fantasy Football
+                league where the draft is mostly done with paper. This can make it challenging to keep track of what players have been picked to what
+                team, as well as who is left to be picked and who would be the best option. This got me thinking and gave me the idea to make a web-based app
+                that would do the sorting and above housekeeping for us, so that we can focus on who we want to draft. I am making this app using JavaScript, React, Node.JS, and CSS
+                and will be deciding a database platform I can use to house all the player information. I am using that project also as a way to master React, the reusable
+                components that React offers seem to be a perfect fit for an app that will need to display plenty of player data in a short amount of time.
+            </p>
+
+            <div class="spacer curve5"></div>
+
+        </div>
+
+        <script src="ham-menu.js" async defer></script>
+    </body>
+</html>
