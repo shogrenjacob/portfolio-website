@@ -148,7 +148,6 @@ label {
 
 .curve6 {
     background-image: url(./waves/wave6.svg);
-    position: absolute;
 }
 
 .wave-divider1 {
@@ -262,10 +261,6 @@ label {
     font-size: x-large;
 }
 
-#contact-me-form {
-    margin-left: 1000px;
-    margin-top: -250px;
-}
 
 #contact-me-content-wrapper {
     margin-left: 100px;
