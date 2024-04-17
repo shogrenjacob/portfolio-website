@@ -136,48 +136,62 @@ label {
 
 .curve3 {
     background-image: url(./waves/wave3.svg);
+    margin-top: -200px;
 }
 
 .curve4 {
     background-image: url(./waves/wave4.svg);
+    margin-top: -200px;
 }
 
 .curve5 {
     background-image: url(./waves/wave5.svg);
+    margin-top: -200px;
 }
 
 .curve6 {
     background-image: url(./waves/wave6.svg);
-    margin-top: 75px;
+    margin-top: -150px;
+
 }
 
 .wave-divider1 {
     background-image: url(./waves/wave-divider.svg);
     margin-bottom: 50px;
+    margin-top: -300px;
 }
 
 .wave-divider2 {
     background-image: url(./waves/wave-divider2.svg);
+    margin-top: -200px;
+    margin-bottom: -100px;
 }
 
 .wave-divider3 {
     background-image: url(./waves/wave-divider3.svg);
+    margin-top: -300px;
 }
 
 .wave-divider4 {
     background-image: url(./waves/wave-divider-4.svg);
+    margin-top: -300px;
+    margin-bottom: -100px;
 }
 
 .wave-divider5 {
     background-image: url(./waves/wave-divider5.svg);
+    margin-top: -300px;
+    margin-bottom: -100px;
 }
 
 .wave-divider6 {
     background-image: url(./waves/wave-divider6.svg);
+    margin-top: -200px;
 }
 
 .wave-divider7 {
     background-image: url(./waves/wave-divider7.svg);
+    margin-top: -200px;
 }
 
 .inline-content {
@@ -192,6 +206,7 @@ label {
 .paragraph-size {
     width: 800px;
     font-size: x-large;
+    line-height: 1.75;
 }
 
 .off-screen-menu {
@@ -249,7 +264,7 @@ label {
 }
 
 #subheading {
-    margin-top: -15px;
+    margin-top: 10px;
     margin-left: 100px;
 }
 
@@ -273,10 +288,16 @@ label {
     #subheading {
         margin-top: 25px;
     }
+
+    .spacer {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
 @media (max-width: 800px) {
     .paragraph-size {
         width: 500px;
+        line-height: 1.75;
     }
 
     #mypicture {
@@ -294,6 +315,7 @@ label {
 
     .paragraph-size {
         width: 300px;
+        line-height: 1.75;
         justify-content: center;
     }
 
